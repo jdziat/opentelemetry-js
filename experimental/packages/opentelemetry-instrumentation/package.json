@@ -17,7 +17,7 @@
     "url": "git+https://github.com/open-telemetry/opentelemetry-js.git"
   },
   "browser": {
-    "./src/platform/index.ts": "./src/platform/browser/index.ts",
+    "./build/src/platform/index.ts": "./src/platform/browser/index.js",
     "./build/esm/platform/index.js": "./build/esm/platform/browser/index.js",
     "./build/esnext/platform/index.js": "./build/esnext/platform/browser/index.js",
     "./build/src/platform/index.js": "./build/src/platform/browser/index.js"
